@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.williamww:silky-signature:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b61e55340be6f21e9fc238df568bf1f/jetified-silky-signature-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b61e55340be6f21e9fc238df568bf1f/jetified-silky-signature-0.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b61e55340be6f21e9fc238df568bf1f/jetified-silky-signature-0.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.williamww/silky-signature/0.1.0/761da53ad95d2146f0a396ab1e9c545e4182b077/silky-signature-0.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.williamww/silky-signature/0.1.0/78fee95cf477eeb34a55e85499a4d4f6fe3e291/silky-signature-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
