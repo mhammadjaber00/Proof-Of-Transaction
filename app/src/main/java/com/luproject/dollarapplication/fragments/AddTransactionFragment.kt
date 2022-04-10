@@ -1,5 +1,6 @@
 package com.luproject.dollarapplication.fragments
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context.MODE_PRIVATE
 import android.content.Intent
@@ -66,6 +67,7 @@ class AddTransactionFragment : BottomSheetDialogFragment(),Listener {
     }
 
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -129,7 +131,7 @@ class AddTransactionFragment : BottomSheetDialogFragment(),Listener {
 
             rvPhotos.adapter = PhotoAdapter(ArrayList())
 
-            val sdf = SimpleDateFormat("dd/M/yyyy hh:mm:ss")
+            val sdf = SimpleDateFormat.getDateTimeInstance()
             val currentDate = sdf.format(Date())
             editTextDate.setText(currentDate)
 

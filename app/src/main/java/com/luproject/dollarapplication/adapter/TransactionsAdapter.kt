@@ -9,7 +9,9 @@ import com.luproject.dollarapplication.models.Transaction
 import kotlinx.android.synthetic.main.cell_transaction.view.*
 import java.util.*
 
-class TransactionsAdapter(private val data:ArrayList<Transaction>,val onTransactionClick:(Transaction)->Unit):RecyclerView.Adapter<TransactionsAdapter.ViewHolder>() {
+class TransactionsAdapter(private val data:ArrayList<Transaction>,
+                          private val onTransactionClick:(Transaction)->Unit)
+     : RecyclerView.Adapter<TransactionsAdapter.ViewHolder>() {
 
 
     class ViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView)
